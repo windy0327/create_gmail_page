@@ -32,7 +32,7 @@
     color: red;
 }
 
-.more_tips_line{
+.more_tips_line {
     border-bottom: 1px gainsboro solid;
     position: absolute;
     top: 355px;
@@ -54,31 +54,30 @@
     margin-right: 1175px;
     margin-left: 20px;
 
-
 }
 
-.all_gmails{
+.all_gmails {
     margin-top: -13px;
     margin-bottom: -200px;
 }
 
-.right_arrow_icon{
+.right_arrow_icon {
     position: absolute;
     left: 11px;
     bottom: 135px;
 }
 
-.blank{
+.blank {
     height: 12px;
     width: 10px;
 }
 
-.manage_tips{
+.manage_tips {
     color: royalblue;
     font-weight: 600;
 }
 
-.new_tips{
+.new_tips {
     color: royalblue;
     font-weight: 600;
 }

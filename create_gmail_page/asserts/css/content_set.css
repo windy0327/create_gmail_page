@@ -1,5 +1,4 @@
-.index
-{
+.index {
     width: 1348px;
     position: relative;
     min-height: 100%;
@@ -14,7 +13,7 @@
     margin-right: -9px;
 }
 
-.google_icon{
+.google_icon {
     position: relative;
     left: 30px;
 }
@@ -30,11 +29,10 @@
 
 }
 
-.show_search_tips_picture
-{
+.show_search_tips_picture {
     position: absolute;
     left: 715px;
-    top:65px ;
+    top: 65px;
 }
 
 .search_button {
@@ -62,7 +60,7 @@
     position: absolute;
     right: 22px;
     top: 55px;
-    color:gray ;
+    color: gray;
 
 }
 
@@ -153,7 +151,7 @@
     font-size: 13px;
 }
 
-.model_picture{
+.model_picture {
     position: absolute;
     right: 20px;
     top: 114px;
@@ -215,12 +213,12 @@ table {
     width: 100%;
 }
 
-.model_icon{
+.model_icon {
     position: relative;
     top: 3px;
     margin-left: 15px;
 }
 
-.gmail_text{
+.gmail_text {
     color: gray;
 }

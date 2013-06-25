@@ -4,7 +4,7 @@
 }
 
 .index_head {
-    background-color: rgb(45,45,45);
+    background-color: rgb(45, 45, 45);
     margin-top: -10px;
     margin-left: -10px;
     margin-right: -10px;
@@ -12,62 +12,67 @@
     padding-bottom: 7px;
     border-color: black;
     opacity: 1;
-    font-family:arial,sans-serif;
+    font-family: arial, sans-serif;
     font-weight: bold;
 }
 
-.down_arrow_picture{
+.down_arrow_picture {
     position: relative;
     bottom: 2px;
     left: 183px;
 }
 
-.head_text
-{
+.head_text {
     position: relative;
     left: 33px;
 }
 
-  .text_first
-{
+.text_first {
     position: relative;
-      left: 48px;
+    left: 48px;
 }
-  .text_second{
-      position: relative;
-      left: 63px;
 
-  }
-  .text_third{
-      position: relative;
-      left: 78px;
-  }
+.text_second {
+    position: relative;
+    left: 63px;
+}
 
-  .text_forth{
-      position: relative;
-      left: 93px;
-  }
-  .text_fifth{
-      position: relative;
-      left: 108px;
-  }
-  .text_sixth{
-      position: relative;
-      left: 123px;
-  }
-  .text_seventh{
-      position: relative;
-      left: 138px;
-  }
-  .text_eighth{
-      position: relative;
-      left: 153px;
-  }
-  .text_ninth{
-      position: relative;
-      left: 168px;
-  }
-  .text_tenth{
-      position: relative;
-      left: 183px;
-  }
+.text_third {
+    position: relative;
+    left: 78px;
+}
+
+.text_forth {
+    position: relative;
+    left: 93px;
+}
+
+.text_fifth {
+    position: relative;
+    left: 108px;
+}
+
+.text_sixth {
+    position: relative;
+    left: 123px;
+}
+
+.text_seventh {
+    position: relative;
+    left: 138px;
+}
+
+.text_eighth {
+    position: relative;
+    left: 153px;
+}
+
+.text_ninth {
+    position: relative;
+    left: 168px;
+}
+
+.text_tenth {
+    position: relative;
+    left: 183px;
+}
