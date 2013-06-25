@@ -200,7 +200,8 @@
 }
 
 .border {
-    border-bottom: 1px gainsboro solid;
+    border-top: 1px gainsboro solid;
+    margin-top: 13px;
 }
 
 td {
