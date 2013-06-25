@@ -1,0 +1,73 @@
+.sidebar {
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 1200px;
+    font-size: 13px;
+    line-height: 22px;
+}
+
+.write_gmail {
+    background-color: #d14836;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+    border-radius: 2px;
+    -webkit-border-adius: 2px;
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+
+}
+
+.show_tips_picture {
+    position: relative;
+    left: 81px;
+    bottom: 19px;
+}
+
+.important_gmail {
+    color: red;
+}
+
+.more_tips_line{
+    border-bottom: 1px gainsboro solid;
+    position: absolute;
+    top: 355px;
+    width: 140px;
+    margin-right: 1175px;
+    margin-left: -11px;
+}
+
+.gmail_folder_picture {
+    position: absolute;
+    bottom: -30px;
+    left: 81px;
+
+}
+
+.gmail_tips {
+    border-bottom: 1px gainsboro solid;
+    margin-top: 284px;
+    margin-right: 1175px;
+    margin-left: 20px;
+
+
+}
+
+.all_gmails{
+    margin-top: -13px;
+    margin-bottom: -200px;
+}
+
+.right_arrow_icon{
+    position: absolute;
+    left: 11px;
+    bottom: 147px;
+}
+
+.blank{
+    height: 12px;
+    width: 10px;
+}
