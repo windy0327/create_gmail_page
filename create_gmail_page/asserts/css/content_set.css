@@ -14,6 +14,11 @@
     margin-right: -9px;
 }
 
+.google_icon{
+    position: relative;
+    left: 30px;
+}
+
 .search_content {
     width: 530px;
     height: 26px;
