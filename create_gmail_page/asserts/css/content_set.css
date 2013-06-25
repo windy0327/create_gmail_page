@@ -24,7 +24,7 @@
     height: 26px;
     position: relative;
     bottom: 16px;
-    left: 12px;
+    left: 85px;
     display: inline-block;
     border: 1px solid #cccccc;
 
@@ -33,7 +33,7 @@
 .show_search_tips_picture
 {
     position: absolute;
-    left: 714px;
+    left: 715px;
     top:65px ;
 }
 
@@ -41,8 +41,8 @@
     border-radius: 2px;
     background-color: #4d90fe;
     position: relative;
-    bottom: 22px;
-    left: 12px;
+    bottom: 21px;
+    left: 97px;
     height: 29px;
     width: 68px;
     display: inline-block;
@@ -53,7 +53,7 @@
 .search_picture {
     position: absolute;
     clip: rect(0px, 62px, 17px, 30px);
-    left: 745px;
+    left: 740px;
     top: 61px;
 }
 

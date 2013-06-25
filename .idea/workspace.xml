@@ -12,7 +12,7 @@
     <file path="$PROJECT_DIR$/../create_zhao_pin_page/asserts/style.css" changelist="289fa6eb-6016-4dec-82b8-85e3a4a2345b" time="1371711248443" ignored="false" />
     <file path="$PROJECT_DIR$/../create_zhao_pin_page/js/switch_regist_logIn.js" changelist="289fa6eb-6016-4dec-82b8-85e3a4a2345b" time="1371711512760" ignored="false" />
     <file path="/*.regexp" changelist="289fa6eb-6016-4dec-82b8-85e3a4a2345b" time="1371894391871" ignored="false" />
-    <file path="/content_set.css" changelist="289fa6eb-6016-4dec-82b8-85e3a4a2345b" time="1372148594886" ignored="false" />
+    <file path="/content_set.css" changelist="289fa6eb-6016-4dec-82b8-85e3a4a2345b" time="1372149600212" ignored="false" />
     <file path="/sidebar_set.css" changelist="289fa6eb-6016-4dec-82b8-85e3a4a2345b" time="1372143674600" ignored="false" />
     <file path="/header_set.css" changelist="289fa6eb-6016-4dec-82b8-85e3a4a2345b" time="1372147103503" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,7 +34,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/create_gmail_page/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="66" selection-start="1214" selection-end="1214" vertical-scroll-proportion="-7.8461537">
+            <state line="16" column="103" selection-start="598" selection-end="598" vertical-scroll-proportion="-0.65384614">
               <folding />
             </state>
           </provider>
@@ -43,7 +43,7 @@
       <file leaf-file-name="content_set.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/create_gmail_page/asserts/css/content_set.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="14" selection-start="312" selection-end="312" vertical-scroll-proportion="0.52487135">
+            <state line="43" column="14" selection-start="688" selection-end="688" vertical-scroll-proportion="0.5334477">
               <folding />
             </state>
           </provider>
@@ -378,14 +378,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/create_gmail_page/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="66" selection-start="1214" selection-end="1214" vertical-scroll-proportion="-7.8461537">
+        <state line="16" column="103" selection-start="598" selection-end="598" vertical-scroll-proportion="-0.65384614">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/create_gmail_page/asserts/css/content_set.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="14" selection-start="312" selection-end="312" vertical-scroll-proportion="0.52487135">
+        <state line="43" column="14" selection-start="688" selection-end="688" vertical-scroll-proportion="0.5334477">
           <folding />
         </state>
       </provider>
