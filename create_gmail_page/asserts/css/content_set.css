@@ -213,12 +213,12 @@ td {
 
 table {
     width: 100%;
-    padding-left: 15px;
 }
 
 .model_icon{
     position: relative;
     top: 3px;
+    margin-left: 15px;
 }
 
 .gmail_text{
