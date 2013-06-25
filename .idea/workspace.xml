@@ -4,7 +4,7 @@
     <list default="true" id="289fa6eb-6016-4dec-82b8-85e3a4a2345b" name="Default" comment="" />
     <ignored path="CreateGmailPage.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/index.html" changelist="289fa6eb-6016-4dec-82b8-85e3a4a2345b" time="1372149908100" ignored="false" />
+    <file path="/index.html" changelist="289fa6eb-6016-4dec-82b8-85e3a4a2345b" time="1372150096577" ignored="false" />
     <file path="/style.css" changelist="289fa6eb-6016-4dec-82b8-85e3a4a2345b" time="1371892319974" ignored="false" />
     <file path="/Dummy.txt" changelist="289fa6eb-6016-4dec-82b8-85e3a4a2345b" time="1371702454594" ignored="false" />
     <file path="$PROJECT_DIR$/../JinYiZhaoPin/JingYiZhaoPin.html" changelist="289fa6eb-6016-4dec-82b8-85e3a4a2345b" time="1371704089458" ignored="false" />
@@ -12,7 +12,7 @@
     <file path="$PROJECT_DIR$/../create_zhao_pin_page/asserts/style.css" changelist="289fa6eb-6016-4dec-82b8-85e3a4a2345b" time="1371711248443" ignored="false" />
     <file path="$PROJECT_DIR$/../create_zhao_pin_page/js/switch_regist_logIn.js" changelist="289fa6eb-6016-4dec-82b8-85e3a4a2345b" time="1371711512760" ignored="false" />
     <file path="/*.regexp" changelist="289fa6eb-6016-4dec-82b8-85e3a4a2345b" time="1371894391871" ignored="false" />
-    <file path="/content_set.css" changelist="289fa6eb-6016-4dec-82b8-85e3a4a2345b" time="1372149600212" ignored="false" />
+    <file path="/content_set.css" changelist="289fa6eb-6016-4dec-82b8-85e3a4a2345b" time="1372150222493" ignored="false" />
     <file path="/sidebar_set.css" changelist="289fa6eb-6016-4dec-82b8-85e3a4a2345b" time="1372143674600" ignored="false" />
     <file path="/header_set.css" changelist="289fa6eb-6016-4dec-82b8-85e3a4a2345b" time="1372147103503" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,19 +31,19 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/create_gmail_page/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="1" selection-start="2443" selection-end="2443" vertical-scroll-proportion="0.71875">
+            <state line="87" column="55" selection-start="3770" selection-end="3770" vertical-scroll-proportion="-13.730769">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="content_set.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="content_set.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/create_gmail_page/asserts/css/content_set.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="14" selection-start="688" selection-end="688" vertical-scroll-proportion="0.0">
+            <state line="191" column="20" selection-start="3031" selection-end="3031" vertical-scroll-proportion="0.5334477">
               <folding />
             </state>
           </provider>
@@ -82,8 +82,8 @@
         <option value="$PROJECT_DIR$/asserts/css/sidebar_set.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/asserts/css/header_set.css" />
-        <option value="$PROJECT_DIR$/create_gmail_page/asserts/css/content_set.css" />
         <option value="$PROJECT_DIR$/create_gmail_page/index.html" />
+        <option value="$PROJECT_DIR$/create_gmail_page/asserts/css/content_set.css" />
       </list>
     </option>
   </component>
@@ -284,7 +284,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="743" extended-state="0" />
+    <frame x="0" y="0" width="1366" height="743" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -376,16 +376,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/create_gmail_page/asserts/css/content_set.css">
+    <entry file="file://$PROJECT_DIR$/create_gmail_page/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="14" selection-start="688" selection-end="688" vertical-scroll-proportion="0.0">
+        <state line="87" column="55" selection-start="3770" selection-end="3770" vertical-scroll-proportion="-13.730769">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/create_gmail_page/index.html">
+    <entry file="file://$PROJECT_DIR$/create_gmail_page/asserts/css/content_set.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="1" selection-start="2443" selection-end="2443" vertical-scroll-proportion="0.71875">
+        <state line="191" column="20" selection-start="3031" selection-end="3031" vertical-scroll-proportion="0.5334477">
           <folding />
         </state>
       </provider>
