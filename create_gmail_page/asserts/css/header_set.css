@@ -14,10 +14,24 @@
     opacity: 1;
     font-family: arial, sans-serif;
     font-weight: bold;
+    height: 19px;
+
+
 }
 
 .down_arrow_picture {
     position: relative;
     bottom: 2px;
-    left: 183px;
+    left: 5px;
+}
+
+ul{
+    list-style: none;
+    position: relative;
+    top: -10px;
+}
+
+ .tittle_text{
+    float: left;
+    padding-right: 19px;
 }
