@@ -109,10 +109,10 @@ function down_search_field(){
 
 function up_search_button(){
     $(".search_button").css("bottom","30px");
-    $(".search_picture").css("top","47px");
+    $(".search_picture").css("top","45px");
 }
 
 function down_search_button(){
-    $(".search_button").css("bottom","20px");
-    $(".search_picture").css("top","61px");
+    $(".search_button").css("bottom","22px");
+    $(".search_picture").css("top","60px");
 }
