@@ -7,16 +7,18 @@
  */
 
 $(document).ready(function(){
-    console.log(window.innerWidth);
 
-    console.log($(".index_head").height());
+    console.log($("tr").height());
     window.onresize =function(){
-        if(window.innerWidth<=900){
-            setTimeout(change_header_size(), 2000);
+        if(window.innerWidth<900){
+            setTimeout(decrease_element_height(), 200);
         }
         else{
-            setTimeout(revert_header_height(),2000);
+            setTimeout(revert_element_height(),200);
+
         }
+        console.log(window.innerWidth);
+        console.log($(".search_field").height());
     }
 
 
@@ -24,11 +26,48 @@ $(document).ready(function(){
 })
 
 
-function change_header_size(){
-    $(".index_head").height($('.index_head').height()*0.8);
+function decrease_element_height(){
+         decrease_header_height();
+         decrease_search_field_height();
+         decrease_operate_field_height();
+         decrease_table_line_height();
+}
+
+function revert_element_height(){
+         revert_header_height();
+         revert_search_field_height();
+         revert_operate_field_height();
+         revert_table_line_height();
+}
+function decrease_header_height(){
+    $(".index_head").height(12);
 }
 
 function revert_header_height(){
     $(".index_head").height(19);
 }
 
+function decrease_search_field_height(){
+    $(".search_field").height(34);
+}
+
+function revert_search_field_height(){
+    $(".search_field").height(60);
+}
+
+function decrease_operate_field_height(){
+    $(".operate_field").height(34);
+}
+
+function revert_operate_field_height(){
+    $(".operate_field").height(60);
+}
+
+function decrease_table_line_height(){
+    $("tr").height(30);
+
+}
+
+function revert_table_line_height(){
+    $("tr").height(37);
+}
