@@ -23,6 +23,7 @@ $(document).ready(function(){
             setTimeout(down_google_icon(),200);
             down_header_text();
             down_search_field();
+            down_search_button();
 
         }
         console.log(window.innerWidth);
@@ -109,4 +110,9 @@ function down_search_field(){
 function up_search_button(){
     $(".search_button").css("bottom","30px");
     $(".search_picture").css("top","47px");
+}
+
+function down_search_button(){
+    $(".search_button").css("bottom","20px");
+    $(".search_picture").css("top","61px");
 }
