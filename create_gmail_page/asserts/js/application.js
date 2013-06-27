@@ -13,25 +13,16 @@ $(document).ready(function(){
         if(window.innerWidth<900){
             //noinspection JSCheckFunctionSignatures
             setTimeout(decrease_element_height(), 200);
-            setTimeout(up_google_icon,200);
-            up_header_text();
-            up_search_field();
-            up_search_button();
-            up_gmail_name();
+            up_element();
         }
         else{
             setTimeout(revert_element_height(),200);
-            setTimeout(down_google_icon(),200);
-            down_header_text();
-            down_search_field();
-            down_search_button();
+            down_element();
 
         }
         console.log(window.innerWidth);
         console.log($(".search_field").height());
     }
-
-
 
 })
 
@@ -48,6 +39,22 @@ function revert_element_height(){
          revert_search_field_height();
          revert_operate_field_height();
          revert_table_line_height();
+}
+
+function up_element(){
+    setTimeout(up_google_icon,200);
+    up_header_text();
+    up_search_field();
+    up_search_button();
+    up_gmail_name();
+}
+
+function down_element(){
+    setTimeout(down_google_icon(),200);
+    down_header_text();
+    down_search_field();
+    down_search_button();
+    down_gmail_name();
 }
 function decrease_header_height(){
     $(".index_head").height(12);
@@ -121,4 +128,9 @@ function down_search_button(){
 function up_gmail_name(){
     $(".gmail_name").css("top","40px");
     $(".show_gmail_information").css("top","47px");
+}
+
+function down_gmail_name(){
+    $(".gmail_name").css("top","55px");
+    $(".show_gmail_information").css("top","62px");
 }
