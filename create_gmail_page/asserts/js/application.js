@@ -16,6 +16,7 @@ $(document).ready(function(){
             setTimeout(up_google_icon,200);
             up_header_text();
             up_search_field();
+            up_search_button();
         }
         else{
             setTimeout(revert_element_height(),200);
@@ -103,4 +104,9 @@ function up_search_field(){
 function down_search_field(){
     $(".search_content").css("bottom","16px");
     $(".show_search_tips_picture").css("top","65px");
+}
+
+function up_search_button(){
+    $(".search_button").css("bottom","30px");
+    $(".search_picture").css("top","47px");
 }
