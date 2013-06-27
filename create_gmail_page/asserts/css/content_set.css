@@ -1,7 +1,11 @@
+
 .index {
-    width: 1348px;
+
     position: relative;
-    min-height: 100%;
+    display: block;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
 }
 
 .search_field {
@@ -11,6 +15,8 @@
     background-color: #F1F1F1;
     margin-left: -6px;
     margin-right: -9px;
+    height: 100%;
+
 }
 
 .google_icon {
@@ -181,6 +187,7 @@
 .guang_gao_field {
     background-color: #F1F1F1;
     height: 28px;
+    width: 100%;
     line-height: 28px;
     border: 1px solid gainsboro;
 }
