@@ -192,6 +192,7 @@
     width: 100%;
     line-height: 28px;
     border: 1px solid gainsboro;
+    min-width: 900px;
 }
 
 .guang_gao {
@@ -215,11 +216,15 @@ td {
     border-bottom: 1px gainsboro solid;
     height: 34px;
     line-height: 34px;
+    overflow:hidden;
+    white-space:nowrap;
+
 
 }
 
 table {
     width: 100%;
+    table-layout: fixed;
 }
 
 .model_icon {
@@ -230,4 +235,16 @@ table {
 
 .gmail_text {
     color: gray;
+}
+
+.icon_location{
+    width: 100px;
+}
+
+.gmail_sender{
+    width: 130px;
+}
+
+.date{
+    width: 50px;
 }
