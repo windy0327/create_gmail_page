@@ -4,6 +4,7 @@
     margin-right: 1200px;
     font-size: 13px;
     line-height: 22px;
+    min-width: 180px;
 }
 
 .write_gmail {

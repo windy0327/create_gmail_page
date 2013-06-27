@@ -11,10 +11,17 @@ $(document).ready(function(){
     console.log($("tr").height());
     window.onresize =function(){
         if(window.innerWidth<900){
+            //noinspection JSCheckFunctionSignatures
             setTimeout(decrease_element_height(), 200);
+            setTimeout(up_google_icon,200);
+            up_header_text();
+            up_search_field();
         }
         else{
             setTimeout(revert_element_height(),200);
+            setTimeout(down_google_icon(),200);
+            down_header_text();
+            down_search_field();
 
         }
         console.log(window.innerWidth);
@@ -70,4 +77,30 @@ function decrease_table_line_height(){
 
 function revert_table_line_height(){
     $("tr").height(37);
+}
+
+function up_google_icon(){
+    $(".google_icon").css("bottom","10px");
+}
+
+function down_google_icon(){
+    $(".google_icon").css("top","0px");
+}
+
+function up_header_text(){
+       $("ul").css("top","-12px");
+}
+
+function down_header_text(){
+      $("ul").css("top","-10px");
+}
+
+function up_search_field(){
+    $(".search_content").css("bottom","25px");
+    $(".show_search_tips_picture").css("top","51px");
+}
+
+function down_search_field(){
+    $(".search_content").css("bottom","16px");
+    $(".show_search_tips_picture").css("top","65px");
 }
