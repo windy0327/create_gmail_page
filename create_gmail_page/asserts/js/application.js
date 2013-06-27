@@ -9,10 +9,13 @@
 $(document).ready(function(){
     console.log(window.innerWidth);
 
-    console.log(window.innerWidth);
+    console.log($(".index_head").height());
     window.onresize =function(){
         if(window.innerWidth<=900){
             setTimeout(change_header_size(), 2000);
+        }
+        else{
+            setTimeout(revert_header_height(),2000);
         }
     }
 
@@ -23,5 +26,9 @@ $(document).ready(function(){
 
 function change_header_size(){
     $(".index_head").height($('.index_head').height()*0.8);
-    console.log("hello") ;
 }
+
+function revert_header_height(){
+    $(".index_head").height(19);
+}
+
