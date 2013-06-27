@@ -17,6 +17,7 @@ $(document).ready(function(){
             up_header_text();
             up_search_field();
             up_search_button();
+            up_gmail_name();
         }
         else{
             setTimeout(revert_element_height(),200);
@@ -115,4 +116,9 @@ function up_search_button(){
 function down_search_button(){
     $(".search_button").css("bottom","22px");
     $(".search_picture").css("top","60px");
+}
+
+function up_gmail_name(){
+    $(".gmail_name").css("top","40px");
+    $(".show_gmail_information").css("top","47px");
 }
