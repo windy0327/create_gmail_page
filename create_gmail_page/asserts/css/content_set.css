@@ -25,6 +25,7 @@ body{
 
 .google_icon {
     position: relative;
+    bottom: 1px;
     left: 30px;
 }
 
@@ -35,13 +36,14 @@ body{
     left: 85px;
     display: inline-block;
     border: 1px solid #cccccc;
-    padding-right: 355px;
+    width: 41.7%;
+
 
 }
 
 .show_search_tips_picture {
     position: absolute;
-    left: 715px;
+    left: 56%;
     top: 65px;
 }
 
@@ -61,7 +63,7 @@ body{
 .search_picture {
     position: absolute;
     clip: rect(0px, 62px, 17px, 30px);
-    left: 740px;
+    left: 58%;
     top: 61px;
 }
 
@@ -227,7 +229,7 @@ body{
 }
 .show_guang_gao{
     position: relative;
-    bottom: 7px;
+    bottom: 5px;
     table-layout: fixed;
 }
 
@@ -237,7 +239,7 @@ body{
     margin-top: 13px;
 }
 
-td {
+ td{
     border-bottom: 1px gainsboro solid;
     height: 30px;
     line-height: 30px;
@@ -273,3 +275,4 @@ table {
     width: 55px;
     padding-right: 20px;
 }
+
