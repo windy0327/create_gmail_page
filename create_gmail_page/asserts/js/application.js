@@ -32,6 +32,7 @@ function decrease_element_height(){
          decrease_search_field_height();
          decrease_operate_field_height();
          decrease_table_line_height();
+         decrease_sidebar_line_height();
 
 }
 
@@ -40,6 +41,7 @@ function revert_element_height(){
          revert_search_field_height();
          revert_operate_field_height();
          revert_table_line_height();
+         revert_sidebar_line_height();
 }
 
 function up_element(){
@@ -171,7 +173,12 @@ function down_gmail_container(){
     $(".gmail_container").css("top","180px");
 }
 
-function decrease_table_height(){
-    $("td").css("height","28px");
-    $("td").css("line-height","28px");
+function decrease_sidebar_line_height(){
+    $(".sidebar").css("line-height","18px");
+    $(".blank").css("height","6px");
+}
+
+function revert_sidebar_line_height(){
+    $(".sidebar").css("line-height","22px");
+    $(".blank").css("height","12px");
 }
