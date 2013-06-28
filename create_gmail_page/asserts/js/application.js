@@ -8,9 +8,9 @@
 
 $(document).ready(function(){
 
-    console.log($("tr").height());
+    console.log(window.innerWidth);
     window.onresize =function(){
-        if(window.innerWidth<900){
+        if(window.innerWidth<1075){
             //noinspection JSCheckFunctionSignatures
             setTimeout(decrease_element_height(), 200);
             up_element();
@@ -47,6 +47,7 @@ function up_element(){
     up_search_field();
     up_search_button();
     up_gmail_name();
+    up_operate_field_buttons();
 }
 
 function down_element(){
@@ -73,7 +74,7 @@ function revert_search_field_height(){
 }
 
 function decrease_operate_field_height(){
-    $(".operate_field").height(34);
+    $(".operate_field").height(43);
 }
 
 function revert_operate_field_height(){
@@ -133,4 +134,11 @@ function up_gmail_name(){
 function down_gmail_name(){
     $(".gmail_name").css("top","55px");
     $(".show_gmail_information").css("top","62px");
+}
+
+function up_operate_field_buttons(){
+    $(".show_gmail").css("bottom","11px");
+    $(".image").css("bottom","6px");
+    $(".refresh_operation").css("top","78px");
+
 }
