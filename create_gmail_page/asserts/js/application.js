@@ -143,5 +143,6 @@ function up_operate_field_buttons(){
     $(".select_sorts").css("top","77px");
     $(".show_more_operations").css("top","80px");
     $(".gmail_number").css("top","86px");
+    $(".model_picture").css("top","73px");
 
 }
