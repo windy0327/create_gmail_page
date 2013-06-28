@@ -14,15 +14,13 @@ $(document).ready(function(){
             //noinspection JSCheckFunctionSignatures
             setTimeout(decrease_element_height(), 200);
             up_element();
-            left_gmail_folder_picture();
-            left_gmail_tips();
+
             left_index();
         }
         else{
             setTimeout(revert_element_height(),200);
             down_element();
-            revert_gmail_folder_picture();
-            revert_gmail_tips();
+
             revert_index();
 
         }
@@ -199,25 +197,6 @@ function up_more_tips_line(){
 
 function down_more_tips_line(){
     $(".more_tips_line").css("top","355px");
-}
-
-function left_gmail_folder_picture(){
-
-    $(".gmail_folder_picture").css("left","61px");
-}
-
-function revert_gmail_folder_picture(){
-
-    $(".gmail_folder_picture").css("left","81px");
-}
-
-function left_gmail_tips(){
-    $(".gmail_tips").css("margin-left","10px");
-
-}
-
-function revert_gmail_tips(){
-   $(".gmail_tips").css("margin-left","20px");
 }
 
 function up_right_arrow_icon(){
