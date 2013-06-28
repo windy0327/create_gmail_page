@@ -56,6 +56,7 @@ function down_element(){
     down_search_field();
     down_search_button();
     down_gmail_name();
+    down_operate_field_buttons();
 }
 function decrease_header_height(){
     $(".index_head").height(12);
@@ -145,4 +146,14 @@ function up_operate_field_buttons(){
     $(".gmail_number").css("top","86px");
     $(".model_picture").css("top","73px");
 
+}
+
+function down_operate_field_buttons(){
+    $(".show_gmail").css("bottom","0px");
+    $(".image").css("bottom","6px");
+    $(".refresh_operation").css("top","121px");
+    $(".select_sorts").css("top","120px");
+    $(".show_more_operations").css("top","124px");
+    $(".gmail_number").css("top","125px");
+    $(".model_picture").css("top","114px");
 }
