@@ -142,5 +142,6 @@ function up_operate_field_buttons(){
     $(".refresh_operation").css("top","78px");
     $(".select_sorts").css("top","77px");
     $(".show_more_operations").css("top","80px");
+    $(".gmail_number").css("top","86px");
 
 }
