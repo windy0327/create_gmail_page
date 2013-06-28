@@ -16,12 +16,14 @@ $(document).ready(function(){
             up_element();
             left_gmail_folder_picture();
             left_gmail_tips();
+            left_index();
         }
         else{
             setTimeout(revert_element_height(),200);
             down_element();
             revert_gmail_folder_picture();
             revert_gmail_tips();
+            revert_index();
 
         }
         console.log(window.innerWidth);
@@ -224,5 +226,12 @@ function up_right_arrow_icon(){
 
 function down_right_arrow_icon(){
     $(".right_arrow_icon").css("top","448px");
+}
+
+function left_index(){
+    $(".index").css("margin-left","-20px");
+}
+function revert_index(){
+    $(".index").css("margin-left","0px");
 }
 

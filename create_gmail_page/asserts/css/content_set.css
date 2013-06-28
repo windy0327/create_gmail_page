@@ -7,7 +7,7 @@ body{
     display: block;
     height: 100%;
     padding: 0px;
-    margin-left: -20px;
+    margin:0px;
 }
 
 .search_field {
