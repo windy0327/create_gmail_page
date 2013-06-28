@@ -239,12 +239,10 @@ body{
 
 td {
     border-bottom: 1px gainsboro solid;
-    height: 34px;
-    line-height: 34px;
+    height: 30px;
+    line-height: 30px;
     overflow:hidden;
     white-space:nowrap;
-
-
 }
 
 table {

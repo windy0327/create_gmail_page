@@ -96,14 +96,14 @@ function revert_operate_field_height(){
 }
 
 function decrease_table_line_height(){
-    $("td").height(23);
-    $("td").css("line-height","23px");
+    $("td").height(18);
+    $("td").css("line-height","18px");
 
 }
 
 function revert_table_line_height(){
-    $("td").height(37);
-    $("td").css("line-height","37px");
+    $("td").height(30);
+    $("td").css("line-height","30px");
 }
 
 function up_google_icon(){
