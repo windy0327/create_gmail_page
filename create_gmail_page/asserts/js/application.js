@@ -14,10 +14,14 @@ $(document).ready(function(){
             //noinspection JSCheckFunctionSignatures
             setTimeout(decrease_element_height(), 200);
             up_element();
+            left_gmail_folder_picture();
+            left_gmail_tips();
         }
         else{
             setTimeout(revert_element_height(),200);
             down_element();
+            revert_gmail_folder_picture();
+            revert_gmail_tips();
 
         }
         console.log(window.innerWidth);
@@ -53,6 +57,7 @@ function up_element(){
     up_operate_field_buttons();
     up_gmail_container();
     up_more_tips_line();
+    up_right_arrow_icon();
 }
 
 function down_element(){
@@ -64,6 +69,7 @@ function down_element(){
     down_operate_field_buttons();
     down_gmail_container();
     down_more_tips_line();
+    down_right_arrow_icon();
 }
 function decrease_header_height(){
     $(".index_head").height(12);
@@ -192,3 +198,31 @@ function up_more_tips_line(){
 function down_more_tips_line(){
     $(".more_tips_line").css("top","355px");
 }
+
+function left_gmail_folder_picture(){
+
+    $(".gmail_folder_picture").css("left","61px");
+}
+
+function revert_gmail_folder_picture(){
+
+    $(".gmail_folder_picture").css("left","81px");
+}
+
+function left_gmail_tips(){
+    $(".gmail_tips").css("margin-left","10px");
+
+}
+
+function revert_gmail_tips(){
+   $(".gmail_tips").css("margin-left","20px");
+}
+
+function up_right_arrow_icon(){
+    $(".right_arrow_icon").css("top","346px");
+}
+
+function down_right_arrow_icon(){
+    $(".right_arrow_icon").css("top","448px");
+}
+
