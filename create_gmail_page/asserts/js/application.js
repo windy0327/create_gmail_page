@@ -120,7 +120,7 @@ function up_google_icon(){
 }
 
 function down_google_icon(){
-    $(".google_icon").css("top","0px");
+    $(".google_icon").css("bottom","0px");
 }
 
 function up_header_text(){
