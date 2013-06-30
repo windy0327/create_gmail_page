@@ -175,7 +175,6 @@ body{
     top: 175px;
     right: 20px;
     font-size: 14px;
-
 }
 
 .guang_gao_field {
@@ -192,18 +191,14 @@ body{
     border-style:none ;
     white-space:nowrap;
     overflow:hidden;
- /*   margin-right: 100px;  */
-
-  /*  background-color: black;  */
 }
+
 .guang_gao {
     color: blue;
     padding-left: 15px;
     line-height: 28px;
     border-style:none ;
     width: 300px;
- /*   overflow:hidden;
-    white-space:nowrap; */
 }
 
 .why_show_guang_gao {
@@ -212,8 +207,6 @@ body{
     float: right;
     padding-right: 15px;
     border-style:none ;
-   /* overflow:hidden;
-    white-space:nowrap;   */
     width: 120px;
 
 }
