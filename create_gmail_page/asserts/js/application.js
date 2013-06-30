@@ -8,17 +8,20 @@
 
 $(document).ready(function(){
 
-  //  console.log(window.innerWidth);
+    console.log(window.innerWidth);
+    console.log($(".guang_gao_field").width());
+    console.log($(".show_guang_gao").width());
+    console.log($(".guang_gao_content").width());
     window.onresize =function(){
 
         if(window.innerWidth<1075){
             //noinspection JSCheckFunctionSignatures
             decrease_element_height();
-
             up_element();
-
             left_index();
             down_guang_gao_table();
+
+            reset_search_field_width();
         }
         else if(window.innerWidth>1075||window.innerWidth==1075){
             revert_element_height();
@@ -130,22 +133,20 @@ function down_header_text(){
 
 function up_search_field(){
     $(".search_content").css("bottom","25px");
-    $(".show_search_tips_picture").css("top","51px");
+    $(".show_search_tips_picture").css("bottom","27px");
 }
 
 function down_search_field(){
     $(".search_content").css("bottom","16px");
-    $(".show_search_tips_picture").css("top","65px");
+    $(".show_search_tips_picture").css("bottom","18px");
 }
 
 function up_search_button(){
-    $(".search_button").css("bottom","30px");
-    $(".search_picture").css("top","45px");
+    $(".search_picture").css("bottom","12px");
 }
 
 function down_search_button(){
-    $(".search_button").css("bottom","22px");
-    $(".search_picture").css("top","60px");
+    $(".search_picture").css("bottom","3px");
 }
 
 function up_gmail_name(){
@@ -226,4 +227,8 @@ function down_guang_gao_table(){
 
 function up_guang_gao_table(){
     $(".show_guang_gao").css("bottom","5px");
+}
+
+function reset_search_field_width(){
+    $(".search_content").css("width","38%");
 }

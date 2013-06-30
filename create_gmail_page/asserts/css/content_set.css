@@ -1,5 +1,6 @@
 body{
      overflow: hidden;
+    min-width: 842px;
 }
 .index {
 
@@ -18,7 +19,7 @@ body{
     margin-left: -6px;
     margin-right: -9px;
     height: 100%;
-    min-width: 800px;
+    min-width: 900px;
 
 
 }
@@ -36,35 +37,21 @@ body{
     left: 85px;
     display: inline-block;
     border: 1px solid #cccccc;
-    width: 41.7%;
+    width: 510px;
 
 
 }
 
 .show_search_tips_picture {
-    position: absolute;
-    left: 56%;
-    top: 65px;
-}
-
-.search_button {
-    border-radius: 2px;
-    background-color: #4d90fe;
     position: relative;
-    bottom: 21px;
-    left: 97px;
-    height: 29px;
-    width: 68px;
-    display: inline-block;
-    -webkit-user-select: none;
-    border: 1px solid transparent;
+    left: 67px;
+    bottom: 18px;
 }
 
 .search_picture {
-    position: absolute;
-    clip: rect(0px, 62px, 17px, 30px);
-    left: 58%;
-    top: 61px;
+    position: relative;
+    left: 84px;
+    bottom: 3px;
 }
 
 .gmail_name {
@@ -80,6 +67,7 @@ body{
     position: absolute;
     right: 10px;
     top: 62px;
+
 }
 
 .operate_field {
@@ -184,7 +172,7 @@ body{
 .gmail_container {
     position: absolute;
     left: 202px;
-    top: 180px;
+    top: 175px;
     right: 20px;
     font-size: 14px;
 
@@ -193,10 +181,9 @@ body{
 .guang_gao_field {
     background-color: #F1F1F1;
     height: 28px;
-    width: 100%;
     line-height: 28px;
     border: 1px solid gainsboro;
-    min-width: 750px;
+    min-width: 700px;
 }
 
 .guang_gao_content{
@@ -204,17 +191,19 @@ body{
     line-height: 28px;
     border-style:none ;
     white-space:nowrap;
-    margin-right: 100px;
+    overflow:hidden;
+ /*   margin-right: 100px;  */
+
+  /*  background-color: black;  */
 }
 .guang_gao {
     color: blue;
     padding-left: 15px;
-
     line-height: 28px;
     border-style:none ;
     width: 300px;
-    overflow:hidden;
-    white-space:nowrap;
+ /*   overflow:hidden;
+    white-space:nowrap; */
 }
 
 .why_show_guang_gao {
@@ -223,16 +212,21 @@ body{
     float: right;
     padding-right: 15px;
     border-style:none ;
-    overflow:hidden;
-    white-space:nowrap;
+   /* overflow:hidden;
+    white-space:nowrap;   */
+    width: 120px;
 
+}
+.why_show_guang_gao_tips{
+    position: relative;
+    right: -10px;
 }
 .show_guang_gao{
     position: relative;
     bottom: 5px;
     table-layout: fixed;
+    min-width: 700px;
 }
-
 
 .border {
     border-top: 1px gainsboro solid;
@@ -250,7 +244,7 @@ body{
 table {
     width: 100%;
     table-layout: fixed;
-    min-width: 600px;
+    min-width: 400px;
 }
 
 .model_icon {
@@ -273,6 +267,6 @@ table {
 
 .date{
     width: 55px;
-    padding-right: 20px;
+
 }
 
