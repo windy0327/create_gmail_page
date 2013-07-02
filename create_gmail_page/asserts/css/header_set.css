@@ -16,7 +16,6 @@
     font-weight: bold;
     height: 19px;
     min-width: 620px;
-
 }
 
 .down_arrow_picture {
@@ -29,9 +28,8 @@ ul{
     list-style: none;
     position: relative;
     top: -10px;
-
-
 }
+
 li{
     float: left;
     padding-right: 19px;

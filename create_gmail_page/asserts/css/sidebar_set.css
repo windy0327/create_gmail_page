@@ -33,7 +33,7 @@
     color: red;
 }
 
-.more_tips_line {
+.divide_line {
     border-bottom: 1px gainsboro solid;
     position: absolute;
     top: 355px;
@@ -48,7 +48,7 @@
 
 }
 
-.gmail_tips {
+.divide_folder_picture_line {
     border-bottom: 1px gainsboro solid;
     position:absolute;
     top: 596px;
