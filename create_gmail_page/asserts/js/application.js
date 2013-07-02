@@ -133,12 +133,12 @@ function down_header_text(){
 
 function up_search_field(){
     $(".search_content").css("bottom","25px");
-    $(".show_search_tips_picture").css("bottom","27px");
+    $(".picture_inside_input").css("bottom","27px");
 }
 
 function down_search_field(){
     $(".search_content").css("bottom","16px");
-    $(".show_search_tips_picture").css("bottom","18px");
+    $(".picture_inside_input").css("bottom","18px");
 }
 
 function up_search_button(){
@@ -163,7 +163,7 @@ function up_operate_field_buttons(){
     $(".show_gmail").css("bottom","11px");
     $(".image").css("bottom","6px");
     $(".refresh_operation").css("top","78px");
-    $(".select_sorts").css("top","77px");
+    $(".checkbox_image").css("top","77px");
     $(".show_more_operations").css("top","80px");
     $(".gmail_number").css("top","86px");
     $(".model_picture").css("top","73px");
@@ -174,7 +174,7 @@ function down_operate_field_buttons(){
     $(".show_gmail").css("bottom","0px");
     $(".image").css("bottom","6px");
     $(".refresh_operation").css("top","121px");
-    $(".select_sorts").css("top","120px");
+    $(".checkbox_image").css("top","120px");
     $(".show_more_operations").css("top","124px");
     $(".gmail_number").css("top","125px");
     $(".model_picture").css("top","114px");
@@ -222,11 +222,11 @@ function revert_index(){
 }
 
 function down_guang_gao_table(){
-    $(".show_guang_gao").css("bottom","-1px");
+    $(".guang_gao_info").css("bottom","-1px");
 }
 
 function up_guang_gao_table(){
-    $(".show_guang_gao").css("bottom","5px");
+    $(".guang_gao_info").css("bottom","5px");
 }
 
 function reset_search_field_width(){
