@@ -99,7 +99,7 @@ body{
 .checkbox_image {
     position: absolute;
     left: 200px;
-    top: 120px;
+    top: 114px;
     display: inline-block;
     background-image: -webkit-linear-gradient(top, whiteSmoke, #F1F1F1);
 }
@@ -107,21 +107,14 @@ body{
 .refresh_operation {
      position: absolute;
     left: 285px;
-    top: 121px;
+    top: 115px;
     display: inline-block;
-}
-
-.refresh_picture {
-    position: absolute;
-    clip: rect(188px, 20px, 210px, 0px);
-    top: -190px;
-    left: 23px;
 }
 
 .show_more_operations {
     position: absolute;
     left: 374px;
-    top: 124px;
+    top: 118px;
     border: 1px solid #d6d6d6;
     display: inline-block;
     background-image: -webkit-linear-gradient(top, whiteSmoke, #F1F1F1);
