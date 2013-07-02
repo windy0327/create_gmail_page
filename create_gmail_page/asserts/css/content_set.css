@@ -1,15 +1,14 @@
-body{
+body {
     overflow: hidden;
     min-width: 842px;
 }
 
 .index {
-
     position: relative;
     display: block;
     height: 100%;
     padding: 0px;
-    margin:0px;
+    margin: 0px;
 }
 
 .search_field {
@@ -103,7 +102,7 @@ body{
 }
 
 .refresh_operation {
-     position: absolute;
+    position: absolute;
     left: 285px;
     top: 115px;
     display: inline-block;
@@ -176,11 +175,10 @@ body{
     min-width: 630px;
 }
 
-.guang_gao_content{
+.guang_gao_content {
 
     line-height: 28px;
-    border-style:none ;
-
+    border-style: none;
 }
 
 .guang_gao {
@@ -189,18 +187,17 @@ body{
     line-height: 28px;
     width: 300px;
     border-style: none;
-
 }
 
 .why_show_guang_gao {
     color: blue;
     font-size: 12px;
     padding-right: 15px;
-    border-style:none ;
+    border-style: none;
     width: 135px;
 }
 
-.why_show_guang_gao_tips{
+.why_show_guang_gao_tips {
     position: relative;
     right: -10px;
 }
@@ -218,12 +215,12 @@ table.guang_gao_info {
     margin-top: 13px;
 }
 
- td{
+td {
     border-bottom: 1px gainsboro solid;
     height: 30px;
     line-height: 30px;
-    overflow:hidden;
-    white-space:nowrap;
+    overflow: hidden;
+    white-space: nowrap;
 }
 
 table {
@@ -242,15 +239,15 @@ table {
     color: gray;
 }
 
-.icon_location{
+.icon_location {
     width: 100px;
 }
 
-.gmail_sender{
+.gmail_sender {
     width: 130px;
 }
 
-.date{
+.date {
     width: 55px;
 }
 

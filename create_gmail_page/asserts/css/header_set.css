@@ -24,13 +24,13 @@
     left: 5px;
 }
 
-ul{
+ul {
     list-style: none;
     position: relative;
     top: -10px;
 }
 
-li{
+li {
     float: left;
     padding-right: 19px;
 }
