@@ -2,6 +2,7 @@ body{
      overflow: hidden;
     min-width: 842px;
 }
+
 .index {
 
     position: relative;
@@ -20,8 +21,6 @@ body{
     margin-right: -9px;
     height: 100%;
     min-width: 900px;
-
-
 }
 
 .google_icon {
@@ -38,7 +37,6 @@ body{
     display: inline-block;
     border: 1px solid #cccccc;
     width: 510px;
-
 
 }
 
@@ -175,7 +173,7 @@ body{
     height: 28px;
     line-height: 28px;
     border: 1px solid gainsboro;
-    min-width: 700px;
+    min-width: 630px;
 }
 
 .guang_gao_content{
@@ -201,17 +199,18 @@ body{
     padding-right: 15px;
     border-style:none ;
     width: 120px;
-
 }
+
 .why_show_guang_gao_tips{
     position: relative;
     right: -10px;
 }
+
 .guang_gao_info {
     position: relative;
     bottom: 5px;
     table-layout: fixed;
-    min-width: 700px;
+    min-width: 630px;
 }
 
 .border {
@@ -253,6 +252,5 @@ table {
 
 .date{
     width: 55px;
-
 }
 
