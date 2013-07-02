@@ -180,25 +180,23 @@ body{
 
     line-height: 28px;
     border-style:none ;
-    white-space:nowrap;
-    overflow:hidden;
+
 }
 
 .guang_gao {
     color: blue;
     padding-left: 15px;
     line-height: 28px;
-    border-style:none ;
     width: 300px;
+
 }
 
 .why_show_guang_gao {
     color: blue;
     font-size: 12px;
-    float: right;
     padding-right: 15px;
     border-style:none ;
-    width: 120px;
+    width: 135px;
 }
 
 .why_show_guang_gao_tips{
@@ -206,11 +204,12 @@ body{
     right: -10px;
 }
 
-.guang_gao_info {
+table.guang_gao_info {
     position: relative;
     bottom: 5px;
     table-layout: fixed;
     min-width: 630px;
+    width: 100%;
 }
 
 .border {
