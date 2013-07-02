@@ -1,21 +1,10 @@
-/**
- * Created with JetBrains RubyMine.
- * User: fmm
- * Date: 13-6-27
- * Time: 下午1:27
- * To change this template use File | Settings | File Templates.
- */
+
 
 $(document).ready(function(){
 
-    console.log(window.innerWidth);
-    console.log($(".guang_gao_field").width());
-    console.log($(".show_guang_gao").width());
-    console.log($(".guang_gao_content").width());
     window.onresize =function(){
 
         if(window.innerWidth<1075){
-            //noinspection JSCheckFunctionSignatures
             decrease_element_height();
             up_element();
             left_index();
@@ -31,8 +20,6 @@ $(document).ready(function(){
             up_guang_gao_table();
 
         }
-    //    console.log(window.innerWidth);
-      //  console.log($(".search_field").height());
     }
 
 })
