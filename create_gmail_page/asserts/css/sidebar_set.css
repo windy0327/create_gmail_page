@@ -33,14 +33,6 @@
     color: red;
 }
 
-.divide_line {
-    border-bottom: 1px gainsboro solid;
-    position: absolute;
-    top: 355px;
-    width: 160px;
-    margin-left: -11px;
-}
-
 .gmail_folder_picture {
     position: absolute;
     top: 603px;
@@ -60,6 +52,8 @@
 .all_gmails {
     margin-top: -13px;
     margin-bottom: -220px;
+    border-top: 1px solid gainsboro;
+    margin-right:25px ;
 }
 
 .right_arrow_icon {
