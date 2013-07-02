@@ -20,13 +20,13 @@ $(document).ready(function(){
             up_element();
             left_index();
             down_guang_gao_table();
-
+            down_tips_picture();
             reset_search_field_width();
         }
         else if(window.innerWidth>1075||window.innerWidth==1075){
             revert_element_height();
             down_element();
-
+            up_tips_picture();
             revert_index();
             up_guang_gao_table();
 
@@ -231,4 +231,12 @@ function up_guang_gao_table(){
 
 function reset_search_field_width(){
     $(".search_content").css("width","38%");
+}
+
+function down_tips_picture(){
+    $(".show_tips_picture").css("bottom","15px");
+}
+
+function up_tips_picture(){
+    $(".show_tips_picture").css("bottom","19px");
 }
