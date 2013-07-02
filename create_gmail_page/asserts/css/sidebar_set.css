@@ -43,7 +43,7 @@
 .divide_folder_picture_line {
     border-bottom: 1px gainsboro solid;
     position:absolute;
-    top: 596px;
+    top: 590px;
     width: 160px;
     margin-left: 20px;
 
@@ -54,12 +54,15 @@
     margin-bottom: -220px;
     border-top: 1px solid gainsboro;
     margin-right:25px ;
+    padding-top: 8px;
+    position: relative;
+    bottom: 4px;
 }
 
 .right_arrow_icon {
     position: absolute;
-    left: 11px;
-    top: 448px;
+    left: -17px;
+    top: 94px;
 }
 
 .blank {
