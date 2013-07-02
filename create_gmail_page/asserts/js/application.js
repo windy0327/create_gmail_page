@@ -207,11 +207,11 @@ function down_more_tips_line(){
 }
 
 function up_right_arrow_icon(){
-    $(".right_arrow_icon").css("top","346px");
+    $(".right_arrow_icon").css("top","77px");
 }
 
 function down_right_arrow_icon(){
-    $(".right_arrow_icon").css("top","448px");
+    $(".right_arrow_icon").css("top","94px");
 }
 
 function left_index(){
